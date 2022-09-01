@@ -1,0 +1,39 @@
+.Middle{
+	position: relative;
+	width: 100%;
+	height: 969px;
+	margin: 30px;
+	
+}
+
+h1{
+	font-family: RobotoCondensed-bold;
+	font-size: 19px;
+	}
+	p
+	{
+	font-family: RobotoCondensed-Regular;
+	font-size: 17px;
+	}
+
+/*Grid Main ----------------------------------------------------*/
+.GridMain{
+	display: flex;
+}
+.Grid{  
+	flex: 1 1 300px;
+		padding: 10px;
+		font-size: .9rem;
+		color: #6e0505;
+}
+
+
+
+/*Ads Box ------------------------------------------------------*/
+.EBox{
+	position: relative;
+	width: 100%;
+	height: 200px;
+}
+
+

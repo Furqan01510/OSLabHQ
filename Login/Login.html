@@ -1,0 +1,38 @@
+<html>
+<head>
+
+<title>Login - OsLabHQ</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="../css/Font.css" />	
+<link rel="stylesheet" href="../css/Reset.css" />	
+<link rel="stylesheet" href="../css/Login/Login.css" />
+
+</head>
+<body>
+	<div class="Rectangle1" >
+		<div class="LoginBlock">
+		<h1 class="Heading1">Welcome Back!</h1>
+		<form action="login.php" method="post">
+			<?php include('errors.php'); ?>
+			<img class="ProfileSvg" src="../svg/Login/Profile.svg">
+			<input class="Email" type="text" name="mailuid" placeholder="Username/E-mail...">
+			<img class="LockSvg" src="../svg/Login/Lock.svg">
+			<input class="Password" type="password" name="pwd" placeholder="Password..." >
+			<p class="ForgetPassword"><a href="">Forget Password ?</a></p>
+			<button class="LoginButton" type="submit" name="Login-sumbit">Login</button>
+		</form>
+		<p class="CreateNewAc">Create New account <a class="ChickHere" href="AccountRegistration.html">Click here</a></p>
+		
+		
+		</div>
+							
+		
+
+		</div>
+</div>
+
+</body>
+</html>

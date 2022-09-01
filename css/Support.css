@@ -1,0 +1,58 @@
+.HSupport{
+	position: absolute;
+	top: 30px;
+	left: 100px;
+	font-family: RobotoCondensed-Bold;
+	font-size: 24px;
+}
+
+.PSupport{
+	position: absolute;
+	top: 200px;
+	left: 100px;
+	margin-right: 80px;
+	font-family: RobotoCondensed-Regular;
+	font-size: 18px;
+
+}
+.Supporters{
+	position: absolute;
+	
+	font-family: RobotoCondensed-Regular;
+	font-size: 18px;
+
+}
+
+.SPImg1{
+	position: relative;
+	top: 10px;
+	left: 10px;
+	margin-bottom: 30px;
+	width: 300px;
+	height: 200px;
+}
+
+.SPName{
+	position: absolute;
+	top: 125px;
+	left: 10px;
+	font-size: 13px;
+}
+.buttonHome {
+  background-color: #6699FF;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: RobotoCondensed-Bold;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.buttonDiv{
+	position: absolute;
+	left: 0;
+	top: 300px;
+}

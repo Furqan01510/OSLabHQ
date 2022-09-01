@@ -1,0 +1,186 @@
+.Middle{
+	position: relative;
+	width: 100%;
+}
+.ImgBox{
+	height: 323px;
+}
+/*First Box ------------------------------------------------------*/
+.FirstBox{
+position: absolute;
+top: 0px;
+ background-color: #6699FF;
+width: 100%;
+height: 323px;
+opacity: 50%;
+}
+
+.typing{
+font-family: RobotoCondensed-Bold;
+font-size: 60px;
+color: black;
+opacity: 100%;
+}
+
+
+
+/*Second Box ------------------------------------------------------*/
+.SecondBox{
+display: flex;
+ background-color: white;
+width: 100%;
+height: 280px;
+}
+.FSDImg{
+	margin: 20px;
+}
+
+.FSDHeading
+{
+	margin: 20px;
+	font-family: RobotoCondensed-Bold;
+	font-Size: 19px;
+}
+
+.FSDPara{
+	margin: 20px;
+	font-family: RobotoCondensed-Regular;
+	font-Size: 18px;
+}
+
+/*Third Box ------------------------------------------------------*/
+.ThirdBox{
+display: flex;
+width: 100%;
+height: 250px;
+}
+
+.DImg{
+	margin: 25px;
+}
+
+.DHeading
+{
+	margin: 20px;
+	font-family: RobotoCondensed-Bold;
+	font-Size: 19px;
+}
+
+.DPara{
+	margin: 20px;
+	font-family: RobotoCondensed-Regular;
+	font-Size: 18px;
+}
+
+/*Fourth Box -----------------------------------------------------*/
+.FourthBox{
+display: flex;
+width: 100%;
+height: 100px;
+}
+.SImg{
+	margin: 25px;
+}
+
+.SHeading{
+	margin: 20px;
+	font-family: RobotoCondensed-Bold;
+	font-Size: 19px;
+}
+
+.SPara{
+	margin: 20px;
+	font-family: RobotoCondensed-Regular;
+	font-Size: 18px;
+}
+/*Ads Box ------------------------------------------------------*/
+.EBox{
+	position: relative;
+	top: 0px;
+	width: 100%;
+	height: 250px;	
+}
+
+
+/*Media Width----------------------------------------------------*/
+
+
+@media(max-width: 768px)
+{
+
+/*First Box ------------------------------------------------------*/
+.FirstBox{
+position: absolute;
+top: 0px;
+background-color: #6699FF;
+width: 100%;
+height: 323px;
+opacity: 50%;
+}
+
+.typing{
+font-family: RobotoCondensed-Bold;
+font-size: 50px;
+color: black;
+}
+
+
+/*Second Box ------------------------------------------------------*/
+.SecondBox{
+display: flex;
+width: 100%;
+height: 300px;
+
+}
+
+.FSDHeading
+{
+	font-family: RobotoCondensed-Bold;
+	font-Size: 16px;
+}
+
+.FSDPara{
+
+	font-family: RobotoCondensed-Regular;
+	font-Size: 13px;
+}
+
+/*Third Box ------------------------------------------------------*/
+.ThirdBox{
+display: flex;
+width: 100%;
+height: 340px;
+}
+
+.DHeading
+{
+	font-family: RobotoCondensed-Bold;
+	font-Size: 16px;
+}
+
+.DPara{
+
+	font-family: RobotoCondensed-Regular;
+	font-Size: 13px;
+}
+
+/*Fouth Box ------------------------------------------------------*/
+.FourthBox{
+display: flex;
+width: 100%;
+height: 200px;
+}
+
+.SHeading{
+
+
+	font-family: RobotoCondensed-Bold;
+	font-Size: 16px;
+}
+
+.SPara{
+
+	font-family: RobotoCondensed-Regular;
+	font-Size: 14px;
+}
+}

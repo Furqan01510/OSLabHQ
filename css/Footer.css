@@ -1,0 +1,129 @@
+/*NewsFormsSocialMedia--------------------------------------------------- */
+.nfs{
+	display: flex;	
+	width: 100%;
+	position: relative;
+	left: 0;
+	bottom: 0;
+
+}
+.Newsletters{
+	position: relative;
+	top: 10px;
+	left: 30px;
+	font-family: Arial;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.container {	
+  position: relative;
+  top: 10px;
+  display: flex; 
+  background-color: #f1f1f1;
+}
+
+input[type=text], input[type=submit]{
+  width: 150px;
+  padding: 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+ font-family: Arial;
+}
+input[type=submit] {
+  background-color: red;
+  color: white;
+  border: none;
+  width: 100px;
+  padding: 10px;
+ font-family: Arial;
+  font-size: 18px;
+  display: inline-block;
+ }  
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+.Submit{
+  background-color: #3E7EAF; 
+  border: none;
+  color: white;
+  font-family: BebasNeue-Regular;
+  font-size: 25px;
+  padding: 9px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.Forms{
+	position: relative;
+	top: 5px;
+	left: 30px;
+	font-family: Arial;
+	font-size: 20px;
+	padding: 20px;	
+}
+.buttonMessage{
+  background-color: #3E7EAF; 
+  border: none;
+  color: white;
+ font-family: Arial;
+  font-size: 20px;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.SocialMedia{
+	position: relative;
+	right: 30px;
+	float: right;
+	padding: 20px;
+	margin: 20px;
+}
+.SM{
+	margin-left: 10px;
+}
+/*Rights and Nav2------------------------------------------------------- */
+.BottomBox, .RNav2{
+	display: flex;
+	position: relative;
+	float: left;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 90px;	
+	background-color: #B3B3B3;
+}
+.Rights{	
+	margin: 20px;
+	background-color: #B3B3B3;
+	font-family: RobotoCondensed-Regular;
+	font-size: 18px;
+}
+
+
+.Nav2{
+	margin-left: 10px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.Nbtn:hover {
+	background-color: #ccc;
+}
+.Nbtn{
+	padding: 10px 8px;
+	font-family: RobotoCondensed-Bold;
+	font-size: 17px;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+}

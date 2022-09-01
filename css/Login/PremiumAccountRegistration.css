@@ -1,0 +1,58 @@
+.PremiumHeading{
+position: absolute;
+
+left: 20px;
+top: 20px;
+
+font-family: Roboto Condensed;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 47px;
+
+color: #ADADAD;
+}
+
+.PremiumParagraph{
+position: absolute;
+
+left: 50px;
+top: 80px;
+
+font-family: Roboto Condensed;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 30px;
+
+color: #ADADAD;
+}
+
+.CreateAccount{
+position: absolute;
+width: 180px;
+height: 35px;
+left: 90px;
+top: 380px;
+
+outline: none;
+border: 0;
+display: block;
+cursor: pointer;
+
+background: linear-gradient(179.83deg, #4614D7 -32.09%, rgba(255, 255, 255, 0) 174.53%), #13C6FF;
+border-radius: 50px;
+
+font-family: Roboto Condensed;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 29px;
+
+
+color: #FFFFFF;
+}
+
+b{
+color: #13C6FF;
+}

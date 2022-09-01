@@ -1,0 +1,55 @@
+.SelectAccount{
+position: absolute;
+
+left: 20px;
+top: 20px;
+
+font-family: Roboto Condensed;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 47px;
+
+color: #ADADAD;
+}
+
+.Premium{
+position: absolute;
+width: 180px;
+height: 35px;
+left: 70px;
+top: 180px;
+
+background: linear-gradient(179.83deg, #4614D7 -32.09%, rgba(255, 255, 255, 0) 174.53%), #13C6FF;
+border-radius: 50px;
+
+
+font-family: Roboto Condensed;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 29px;
+
+
+color: #FFFFFF;
+}
+
+.Free{
+position: absolute;
+width: 180px;
+height: 35px;
+left: 70px;
+top: 250px;
+
+background: linear-gradient(179.83deg, #4614D7 -32.09%, rgba(255, 255, 255, 0) 174.53%), #13C6FF;
+border-radius: 50px;
+
+
+font-family: Roboto Condensed;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 29px;
+
+color: #FFFFFF;
+}

@@ -1,0 +1,57 @@
+.Middle{
+	position: relative;
+	margin: 30px;
+	font-family: RobotoCondensed-Regular;
+}
+
+.LinuxImg{
+	width: 100px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+.HLinux{
+	position: relative;
+	top: 0px;
+	font-family: RobotoCondensed-Bold;
+	font-size: 20px;
+}
+.Para1{
+	position: relative;
+	top: 10px;
+}
+.link{
+	border-left: 5px solid red;
+	background-color: lightgrey;
+	padding: 5px;
+	text-decoration: none;
+	width: 150px;
+	font-size: 20px;
+}
+a{
+		text-decoration: none;
+		color: red;
+}
+.SImg{
+	width: 600px;
+
+}
+
+/*Ads Box ------------------------------------------------------*/
+.EBox{
+	position: relative;
+	width: 100%;
+	height: 200px;
+}
+
+
+/*Media ---------------------------------------------------------*/
+@media(max-width: 768px)
+{
+.SImg{
+	width: 280px;
+
+}
+}
+
+

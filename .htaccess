@@ -1,0 +1,11 @@
+#Custom default index page
+DirectoryIndex index.html
+RewriteEngine on
+RewriteBase /
+RewriteCond %{http://www.oslabhq.com/} !(\.[^./]+)$
+RewriteCond %{REQUEST_fileNAME} !-d
+RewriteCond %{REQUEST_fileNAME} !-f
+RewriteRule (.*) /$1.html [L]
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^.]+)\.html\ HTTP
+RewriteRule ^([^.]+)\.html$ http://www.oslabhq.com/$1 [R=301,L]
+Options -Indexes

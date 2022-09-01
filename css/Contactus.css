@@ -1,0 +1,34 @@
+.HContactus{
+	position: absolute;
+	top: 10px;
+	left: 100px;
+	font-family: RobotoCondensed-Bold;
+	font-size: 24px;
+}
+.PContact{
+	position: absolute;
+	top: 180px;
+	left: 100px;
+	font-family: RobotoCondensed-Regular;
+	font-size: 18px;
+}
+.buttonHome {
+  background-color: #6699FF;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: RobotoCondensed-Bold;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.buttonDiv{
+	position: relative;
+	left: 0px;
+}
+.SM{
+	margin-left: 20px;
+}
